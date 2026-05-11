@@ -20,6 +20,9 @@ A ferramenta possui duas versões:
 * `buscador.py`: Código fonte para uso via terminal.
 * `requirements.txt`: Lista de dependências para o servidor online.
 
+## 🔗 Link:
+https://localizador-salas-ufes.streamlit.app/#localizador-de-salas-vagas-da-ufes
+
 ## 💻 Como Rodar Localmente
 
 1. Clone o repositório:
