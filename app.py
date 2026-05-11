@@ -5,7 +5,7 @@ import re
 # Configuração da página e layout do site
 st.set_page_config(page_title="Buscador de Salas UFES", layout="wide")
 
-st.title("🏢 Central de Salas UFES")
+st.title("🏢 Central de Salas UFES CCHN - 2026")
 st.markdown("Arraste os arquivos Excel dos prédios para buscar.")
 
 # Componente para upload de múltiplos arquivos .xlsx
