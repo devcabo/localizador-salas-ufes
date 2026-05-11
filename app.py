@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Buscador de Salas UFES", layout="centered")
 
-st.title("🏢 Localizador de Salas Vagas da UFES")
+st.title("🏢 Localizador de Salas Vagas da UFES CCHN")
 st.markdown("Arraste o arquivo Excel do prédio para verificar os horários livres.")
 
 # 1. Campo para arrastar o arquivo (Uploader)
