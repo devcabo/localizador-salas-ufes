@@ -51,7 +51,7 @@ if arquivos_postados:
         with col1:
             escolha = st.selectbox("Selecione a Sala e o Prédio", opcoes_selecao)
         with col2:
-            dias = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
+            dias = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta"]
             dia_semana = st.selectbox("Dia da Semana", dias)
 
         # 3. Separar a escolha para buscar o dado correto
