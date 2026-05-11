@@ -90,4 +90,4 @@ if arquivos_postados:
 
 # Rodapé de créditos corrigido
 st.divider()
-st.markdown("<center>Feito por <b>@devcabo</b></center>", unsafe_allow_html=True)
+st.markdown("<center><b>@devcabo</b></center>", unsafe_allow_html=True)
