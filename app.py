@@ -88,6 +88,6 @@ if arquivos_postados:
     else:
         st.info("Aguardando upload de arquivos válidos...")
 
-# Rodapé de créditos
+# Rodapé de créditos corrigido
 st.divider()
-st.markdown("<center>Feito por <b>@devcabo</b></center>", unsafe_allow_stdio=True, unsafe_allow_html=True)
+st.markdown("<center>Feito por <b>@devcabo</b></center>", unsafe_allow_html=True)
