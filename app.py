@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Buscador de Salas UFES", layout="centered")
 
-st.title("🏢 Localizador de Salas Vagas")
+st.title("🏢 Localizador de Salas Vagas da UFES")
 st.markdown("Arraste o arquivo Excel do prédio para verificar os horários livres.")
 
 # 1. Campo para arrastar o arquivo (Uploader)
@@ -13,7 +13,7 @@ if arquivo_postado:
     # 2. Configurações de busca
     col1, col2 = st.columns(2)
     with col1:
-        sala_alvo = st.text_input("Número da Sala (ex: 105)").strip().upper()
+        sala_alvo = st.text_input("Número da Sala:").strip().upper()
     with col2:
         dias = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
         dia_semana = st.selectbox("Dia da Semana", dias)
